@@ -1,0 +1,3 @@
+<p>
+    © 2025 Laravel Blade Example
+</p>

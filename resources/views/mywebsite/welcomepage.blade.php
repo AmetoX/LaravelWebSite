@@ -1,24 +1,15 @@
-<!DOCTYPE html>
-<html>
+@extends('mywebsite.layouts.default')
 
-<head>
-<title>@yield('page_title', 'Default Title')</title>
-<!-- Common CSS/JS files go here -->
-</head>
 
-<body>
-<header>@yield('header_content')</header>
 
-<main>
+@section('content')
 
-@yield('main_content')
+<h1>
+    Welcome to the Home Page
+</h1>
 
-</main>
+<p>
+    This content is unique to the home page.
+</p>
 
-<footer>
-    @yield('footer_content', 'Default footer text')
-
-</footer>
-
-</body>
-</html>
+@endsection
